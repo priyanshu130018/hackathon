@@ -1,0 +1,309 @@
+2025-11-12 14:43:56,167 - __main__ - INFO - Behavioral Authentication System initialized successfully
+2025-11-12 14:43:56,167 - __main__ - INFO - Configuration: development
+2025-11-12 14:43:56,167 - __main__ - INFO - Database: database/auth_system.db
+2025-11-12 14:43:56,167 - __main__ - INFO - Models path: models/saved
+2025-11-12 14:43:56,167 - __main__ - INFO - Starting Behavioral Authentication System...
+2025-11-12 14:43:56,167 - __main__ - INFO - Debug mode: True
+2025-11-12 14:43:56,188 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.234:5000
+2025-11-12 14:43:56,189 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-12 14:43:56,189 - werkzeug - INFO -  * Restarting with stat
+2025-11-12 14:44:00,076 - __main__ - INFO - Behavioral Authentication System initialized successfully
+2025-11-12 14:44:00,076 - __main__ - INFO - Configuration: development
+2025-11-12 14:44:00,076 - __main__ - INFO - Database: database/auth_system.db
+2025-11-12 14:44:00,077 - __main__ - INFO - Models path: models/saved
+2025-11-12 14:44:00,077 - __main__ - INFO - Starting Behavioral Authentication System...
+2025-11-12 14:44:00,077 - __main__ - INFO - Debug mode: True
+2025-11-12 14:44:00,078 - werkzeug - WARNING -  * Debugger is active!
+2025-11-12 14:44:00,081 - werkzeug - INFO -  * Debugger PIN: 711-865-944
+2025-11-12 14:44:54,466 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:44:54] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-12 14:44:54,512 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:44:54] "GET /login HTTP/1.1" 200 -
+2025-11-12 14:44:54,704 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:44:54] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-11-12 14:44:54,704 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:44:54] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-11-12 14:44:56,153 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:44:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-12 14:45:41,322 - __main__ - INFO - New user registered: Priyanshu (ID: 1)
+2025-11-12 14:45:41,324 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:45:41] "POST /api/register HTTP/1.1" 200 -
+2025-11-12 14:45:50,754 - __main__ - INFO - Initialized ML models for user 1
+2025-11-12 14:45:50,755 - utils.feature_extractor - INFO - BehavioralFeatureExtractor initialized with 38 features
+2025-11-12 14:45:50,755 - __main__ - INFO - Initialized feature extractor for user 1
+2025-11-12 14:45:50,756 - __main__ - INFO - Initialized drift detector for user 1
+2025-11-12 14:45:50,767 - __main__ - INFO - User logged in: Priyanshu (Session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552)
+2025-11-12 14:45:50,769 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:45:50] "POST /api/login HTTP/1.1" 200 -
+2025-11-12 14:45:52,822 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:45:52] "GET /calibration HTTP/1.1" 200 -
+2025-11-12 14:45:52,902 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:45:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-12 14:45:52,904 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:45:52] "GET /static/js/calib.js HTTP/1.1" 200 -
+2025-11-12 14:45:53,625 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:45:53] "GET /socket.io/?EIO=4&transport=polling&t=PftMP-D HTTP/1.1" 200 -
+2025-11-12 14:45:53,664 - __main__ - INFO - Client connected: 3E_OSQi-hTFtFcKHAAAB
+2025-11-12 14:45:53,667 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:45:53] "POST /socket.io/?EIO=4&transport=polling&t=PftMP-y&sid=_ns14sqmm5dE1JpWAAAA HTTP/1.1" 200 -
+2025-11-12 14:45:53,673 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:45:53] "GET /socket.io/?EIO=4&transport=polling&t=PftMP-z&sid=_ns14sqmm5dE1JpWAAAA HTTP/1.1" 200 -
+2025-11-12 14:45:53,861 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:45:53] "GET /socket.io/?EIO=4&transport=polling&t=PftMQ21&sid=_ns14sqmm5dE1JpWAAAA HTTP/1.1" 200 -
+2025-11-12 14:45:53,894 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:49:58,716 - __main__ - INFO - Starting calibration completion process
+2025-11-12 14:49:58,717 - __main__ - INFO - Processing calibration completion for session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:49:58,779 - __main__ - INFO - Authenticated user 1 for calibration completion
+2025-11-12 14:49:58,780 - __main__ - INFO - Retrieving behavioral data for user 1
+2025-11-12 14:49:58,798 - __main__ - INFO - Retrieved 0 keystroke samples and 24 mouse samples
+2025-11-12 14:49:58,798 - __main__ - INFO - Initializing ML components for user 1
+2025-11-12 14:49:58,799 - __main__ - INFO - Extracting features from behavioral data
+2025-11-12 14:49:58,801 - __main__ - INFO - Final feature count: 15 keystroke, 24 mouse
+2025-11-12 14:49:58,801 - __main__ - INFO - Starting model training
+2025-11-12 14:49:58,802 - __main__ - INFO - Training models with 39 total feature samples
+2025-11-12 14:49:58,803 - __main__ - WARNING - Feature dimension mismatch: 18 != 38
+2025-11-12 14:50:07,158 - __main__ - INFO - Model training completed: {'autoencoder': {'loss': 0.07572642713785172, 'threshold': 0.08688601352089868, 'mean_reconstruction_error': 0.06565493758738639}, 'svm': {'inlier_ratio': 0.717948717948718, 'support_vectors': 22}, 'isolation': {'inlier_ratio': 0.8974358974358975, 'n_estimators': 100}, 'pa': {'initialized': True}}
+2025-11-12 14:50:07,159 - __main__ - INFO - Setting up drift detection baseline
+2025-11-12 14:50:07,251 - __main__ - INFO - Drift detection baseline established
+2025-11-12 14:50:07,252 - __main__ - INFO - Saving trained models
+2025-11-12 14:50:07,439 - __main__ - INFO - Models saved successfully
+2025-11-12 14:50:07,440 - __main__ - INFO - Updating user calibration status
+2025-11-12 14:50:07,457 - __main__ - INFO - Database updated successfully
+2025-11-12 14:50:07,459 - __main__ - INFO - Calibration completed successfully for user 1
+2025-11-12 14:50:07,460 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:07] "POST /api/calibration/complete HTTP/1.1" 200 -
+2025-11-12 14:50:13,865 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:13] "GET /challenge HTTP/1.1" 200 -
+2025-11-12 14:50:13,916 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-12 14:50:13,922 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:13] "GET /static/js/challenge.js HTTP/1.1" 200 -
+2025-11-12 14:50:14,526 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:14] "GET /socket.io/?EIO=4&transport=polling&t=PftNPgg HTTP/1.1" 200 -
+2025-11-12 14:50:14,636 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:14] "GET /socket.io/?EIO=4&transport=polling&t=PftNPiS HTTP/1.1" 200 -
+2025-11-12 14:50:14,640 - __main__ - INFO - Client disconnected: 3E_OSQi-hTFtFcKHAAAB
+2025-11-12 14:50:14,643 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:14] "GET /socket.io/?EIO=4&transport=websocket&sid=_ns14sqmm5dE1JpWAAAA HTTP/1.1" 200 -
+2025-11-12 14:50:14,655 - __main__ - INFO - Client connected: nUJbCsr0mtblbwxwAAAE
+2025-11-12 14:50:14,657 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:14] "POST /socket.io/?EIO=4&transport=polling&t=PftNPix&sid=8njdafuSYqkLxcrpAAAC HTTP/1.1" 200 -
+2025-11-12 14:50:14,660 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:14] "GET /socket.io/?EIO=4&transport=polling&t=PftNPiy&sid=8njdafuSYqkLxcrpAAAC HTTP/1.1" 200 -
+2025-11-12 14:50:14,825 - __main__ - INFO - Client connected: eqzdkp8lGzxVuj95AAAF
+2025-11-12 14:50:14,827 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:14] "POST /socket.io/?EIO=4&transport=polling&t=PftNPlb&sid=Rxe2o-hpNl2w-0AbAAAD HTTP/1.1" 200 -
+2025-11-12 14:50:14,835 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:14] "GET /socket.io/?EIO=4&transport=polling&t=PftNPlc&sid=Rxe2o-hpNl2w-0AbAAAD HTTP/1.1" 200 -
+2025-11-12 14:50:14,838 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:14] "GET /socket.io/?EIO=4&transport=polling&t=PftNPlf&sid=8njdafuSYqkLxcrpAAAC HTTP/1.1" 200 -
+2025-11-12 14:50:14,841 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:14] "POST /socket.io/?EIO=4&transport=polling&t=PftNPlf.0&sid=8njdafuSYqkLxcrpAAAC HTTP/1.1" 200 -
+2025-11-12 14:50:14,857 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:50:14,877 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:14] "GET /socket.io/?EIO=4&transport=polling&t=PftNPm1&sid=Rxe2o-hpNl2w-0AbAAAD HTTP/1.1" 200 -
+2025-11-12 14:50:14,903 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:14] "POST /socket.io/?EIO=4&transport=polling&t=PftNPm2&sid=Rxe2o-hpNl2w-0AbAAAD HTTP/1.1" 200 -
+2025-11-12 14:50:14,908 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:50:14] "GET /socket.io/?EIO=4&transport=polling&t=PftNPm4&sid=8njdafuSYqkLxcrpAAAC HTTP/1.1" 200 -
+2025-11-12 14:50:14,941 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:50:43,721 - __main__ - WARNING - Model update error: 'list' object has no attribute 'get'
+2025-11-12 14:51:05,867 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:05] "GET /socket.io/?EIO=4&transport=polling&t=PftNcD5 HTTP/1.1" 200 -
+2025-11-12 14:51:05,876 - __main__ - INFO - Client connected: xIN1zRc-PMdMDikJAAAH
+2025-11-12 14:51:05,878 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:05] "POST /socket.io/?EIO=4&transport=polling&t=PftNcDG&sid=PDOBnhvp6P34bmNqAAAG HTTP/1.1" 200 -
+2025-11-12 14:51:05,883 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:05] "GET /socket.io/?EIO=4&transport=polling&t=PftNcDH&sid=PDOBnhvp6P34bmNqAAAG HTTP/1.1" 200 -
+2025-11-12 14:51:07,643 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:07] "GET /socket.io/?EIO=4&transport=polling&t=PftNceo HTTP/1.1" 200 -
+2025-11-12 14:51:07,660 - __main__ - INFO - Client connected: 1bhPV0HwOvZqyHxwAAAJ
+2025-11-12 14:51:07,662 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:07] "POST /socket.io/?EIO=4&transport=polling&t=PftNcf2&sid=rs-CFXzAP6oCx2NqAAAI HTTP/1.1" 200 -
+2025-11-12 14:51:07,672 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:07] "GET /socket.io/?EIO=4&transport=polling&t=PftNcf3&sid=rs-CFXzAP6oCx2NqAAAI HTTP/1.1" 200 -
+2025-11-12 14:51:07,735 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:08,954 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:08] "GET /socket.io/?EIO=4&transport=polling&t=PftNczL HTTP/1.1" 200 -
+2025-11-12 14:51:08,963 - __main__ - INFO - Client connected: 5rtCeAD6rDICqeKgAAAL
+2025-11-12 14:51:08,964 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:08] "POST /socket.io/?EIO=4&transport=polling&t=PftNczT&sid=G3deGp9u091R9SwyAAAK HTTP/1.1" 200 -
+2025-11-12 14:51:08,968 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:08] "GET /socket.io/?EIO=4&transport=polling&t=PftNczU&sid=G3deGp9u091R9SwyAAAK HTTP/1.1" 200 -
+2025-11-12 14:51:09,018 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:12,164 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:12] "GET /socket.io/?EIO=4&transport=polling&t=PftNdlQ HTTP/1.1" 200 -
+2025-11-12 14:51:12,175 - __main__ - INFO - Client connected: kHnXkOka7cZ0jhiVAAAN
+2025-11-12 14:51:12,179 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:12] "POST /socket.io/?EIO=4&transport=polling&t=PftNdlf&sid=-2F8_ACfiF2rOCw_AAAM HTTP/1.1" 200 -
+2025-11-12 14:51:12,194 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:12] "GET /socket.io/?EIO=4&transport=polling&t=PftNdlg&sid=-2F8_ACfiF2rOCw_AAAM HTTP/1.1" 200 -
+2025-11-12 14:51:12,261 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:13,368 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:13] "GET /socket.io/?EIO=4&transport=polling&t=PftNe2E HTTP/1.1" 200 -
+2025-11-12 14:51:13,378 - __main__ - INFO - Client connected: ULVPRmRRz-J_BNMIAAAP
+2025-11-12 14:51:13,380 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:13] "POST /socket.io/?EIO=4&transport=polling&t=PftNe2R&sid=n5AmYLAbVx85YCtQAAAO HTTP/1.1" 200 -
+2025-11-12 14:51:13,388 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:13] "GET /socket.io/?EIO=4&transport=polling&t=PftNe2R.0&sid=n5AmYLAbVx85YCtQAAAO HTTP/1.1" 200 -
+2025-11-12 14:51:13,418 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:14,263 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:14] "GET /socket.io/?EIO=4&transport=polling&t=PftNeGG HTTP/1.1" 200 -
+2025-11-12 14:51:14,275 - __main__ - INFO - Client connected: NNkCbdzScuyYmx2nAAAR
+2025-11-12 14:51:14,277 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:14] "POST /socket.io/?EIO=4&transport=polling&t=PftNeGR&sid=heyo0jQV9eLzuNBNAAAQ HTTP/1.1" 200 -
+2025-11-12 14:51:14,279 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:14] "GET /socket.io/?EIO=4&transport=polling&t=PftNeGR.0&sid=heyo0jQV9eLzuNBNAAAQ HTTP/1.1" 200 -
+2025-11-12 14:51:14,298 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:15,511 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:15] "GET /socket.io/?EIO=4&transport=polling&t=PftNeZq HTTP/1.1" 200 -
+2025-11-12 14:51:15,525 - __main__ - INFO - Client connected: bclP5Iem30tlEdMbAAAT
+2025-11-12 14:51:15,525 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:15] "POST /socket.io/?EIO=4&transport=polling&t=PftNeZz&sid=4xxI26Z2bdSvX-3WAAAS HTTP/1.1" 200 -
+2025-11-12 14:51:15,528 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:15] "GET /socket.io/?EIO=4&transport=polling&t=PftNeZ-&sid=4xxI26Z2bdSvX-3WAAAS HTTP/1.1" 200 -
+2025-11-12 14:51:15,544 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:16,895 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:16] "GET /socket.io/?EIO=4&transport=polling&t=PftNevQ HTTP/1.1" 200 -
+2025-11-12 14:51:16,903 - __main__ - INFO - Client connected: vqgDOuDmKP75b5-qAAAV
+2025-11-12 14:51:16,903 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:16] "POST /socket.io/?EIO=4&transport=polling&t=PftNeva&sid=XJMlZ4sZGCirsqS4AAAU HTTP/1.1" 200 -
+2025-11-12 14:51:16,905 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:16] "GET /socket.io/?EIO=4&transport=polling&t=PftNeva.0&sid=XJMlZ4sZGCirsqS4AAAU HTTP/1.1" 200 -
+2025-11-12 14:51:16,918 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:16] "GET /socket.io/?EIO=4&transport=polling&t=PftNevk&sid=XJMlZ4sZGCirsqS4AAAU HTTP/1.1" 200 -
+2025-11-12 14:51:16,947 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:17,517 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:17] "GET /socket.io/?EIO=4&transport=polling&t=PftNf33 HTTP/1.1" 200 -
+2025-11-12 14:51:17,535 - __main__ - INFO - Client connected: _yg6uqjD-k0NW_7NAAAX
+2025-11-12 14:51:17,537 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:17] "POST /socket.io/?EIO=4&transport=polling&t=PftNf3L&sid=E8gqXdzeISAEudTUAAAW HTTP/1.1" 200 -
+2025-11-12 14:51:17,548 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:17] "GET /socket.io/?EIO=4&transport=polling&t=PftNf3M&sid=E8gqXdzeISAEudTUAAAW HTTP/1.1" 200 -
+2025-11-12 14:51:17,615 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:19,596 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:19] "GET /socket.io/?EIO=4&transport=polling&t=PftNfZa HTTP/1.1" 200 -
+2025-11-12 14:51:19,609 - __main__ - INFO - Client connected: 38fyyyqgkCd5MKPsAAAZ
+2025-11-12 14:51:19,612 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:19] "POST /socket.io/?EIO=4&transport=polling&t=PftNfZn&sid=vQPB4kmFcyhmvEklAAAY HTTP/1.1" 200 -
+2025-11-12 14:51:19,613 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:19] "GET /socket.io/?EIO=4&transport=polling&t=PftNfZo&sid=vQPB4kmFcyhmvEklAAAY HTTP/1.1" 200 -
+2025-11-12 14:51:19,682 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:20,516 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:20] "GET /socket.io/?EIO=4&transport=polling&t=PftNfnw HTTP/1.1" 200 -
+2025-11-12 14:51:20,532 - __main__ - INFO - Client connected: GJhJisuwg2kGnd0-AAAb
+2025-11-12 14:51:20,534 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:20] "POST /socket.io/?EIO=4&transport=polling&t=PftNfoD&sid=vH4OVO3yRm-u72VOAAAa HTTP/1.1" 200 -
+2025-11-12 14:51:20,558 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:20] "GET /socket.io/?EIO=4&transport=polling&t=PftNfoE&sid=vH4OVO3yRm-u72VOAAAa HTTP/1.1" 200 -
+2025-11-12 14:51:20,593 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:21,939 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:21] "GET /socket.io/?EIO=4&transport=polling&t=PftNg8E HTTP/1.1" 200 -
+2025-11-12 14:51:21,947 - __main__ - INFO - Client connected: pdIFNRrSkOetAps0AAAd
+2025-11-12 14:51:21,948 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:21] "POST /socket.io/?EIO=4&transport=polling&t=PftNg8N&sid=YTrgtfS-B2SRbWZvAAAc HTTP/1.1" 200 -
+2025-11-12 14:51:21,948 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:21] "GET /socket.io/?EIO=4&transport=polling&t=PftNg8O&sid=YTrgtfS-B2SRbWZvAAAc HTTP/1.1" 200 -
+2025-11-12 14:51:21,959 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:21] "POST /socket.io/?EIO=4&transport=polling&t=PftNg8X&sid=YTrgtfS-B2SRbWZvAAAc HTTP/1.1" 200 -
+2025-11-12 14:51:21,960 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:21] "GET /socket.io/?EIO=4&transport=polling&t=PftNg8W&sid=YTrgtfS-B2SRbWZvAAAc HTTP/1.1" 200 -
+2025-11-12 14:51:21,976 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:23,389 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:23] "GET /socket.io/?EIO=4&transport=polling&t=PftNgUk HTTP/1.1" 200 -
+2025-11-12 14:51:23,407 - __main__ - INFO - Client connected: GnGJ7O3mubsoTjipAAAf
+2025-11-12 14:51:23,408 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:23] "POST /socket.io/?EIO=4&transport=polling&t=PftNgV7&sid=YMu6YakkM_E7HEZlAAAe HTTP/1.1" 200 -
+2025-11-12 14:51:23,410 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:23] "GET /socket.io/?EIO=4&transport=polling&t=PftNgV8&sid=YMu6YakkM_E7HEZlAAAe HTTP/1.1" 200 -
+2025-11-12 14:51:23,425 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:23] "GET /socket.io/?EIO=4&transport=polling&t=PftNgVO&sid=YMu6YakkM_E7HEZlAAAe HTTP/1.1" 200 -
+2025-11-12 14:51:23,425 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:23] "POST /socket.io/?EIO=4&transport=polling&t=PftNgVO.0&sid=YMu6YakkM_E7HEZlAAAe HTTP/1.1" 200 -
+2025-11-12 14:51:23,438 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:24,316 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:24] "GET /socket.io/?EIO=4&transport=polling&t=PftNgjH HTTP/1.1" 200 -
+2025-11-12 14:51:24,334 - __main__ - INFO - Client connected: m43PqslTlQnGxQjhAAAh
+2025-11-12 14:51:24,336 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:24] "POST /socket.io/?EIO=4&transport=polling&t=PftNgja&sid=BghianiVSNRvE0bfAAAg HTTP/1.1" 200 -
+2025-11-12 14:51:24,346 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:24] "GET /socket.io/?EIO=4&transport=polling&t=PftNgjb&sid=BghianiVSNRvE0bfAAAg HTTP/1.1" 200 -
+2025-11-12 14:51:24,388 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:25,160 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:25] "GET /socket.io/?EIO=4&transport=polling&t=PftNgwY HTTP/1.1" 200 -
+2025-11-12 14:51:25,170 - __main__ - INFO - Client connected: LwAQttZ2JC6LkW6KAAAj
+2025-11-12 14:51:25,172 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:25] "POST /socket.io/?EIO=4&transport=polling&t=PftNgwi&sid=ZG9LaF7Mz4jIe_8iAAAi HTTP/1.1" 200 -
+2025-11-12 14:51:25,175 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:25] "GET /socket.io/?EIO=4&transport=polling&t=PftNgwj&sid=ZG9LaF7Mz4jIe_8iAAAi HTTP/1.1" 200 -
+2025-11-12 14:51:25,202 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:26,434 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:26] "GET /socket.io/?EIO=4&transport=polling&t=PftNhEO HTTP/1.1" 200 -
+2025-11-12 14:51:26,450 - __main__ - INFO - Client connected: EHZAfzvyqftuGThWAAAl
+2025-11-12 14:51:26,454 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:26] "POST /socket.io/?EIO=4&transport=polling&t=PftNhEe&sid=-HoTI2hiU9HKQ-OmAAAk HTTP/1.1" 200 -
+2025-11-12 14:51:26,462 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:26] "GET /socket.io/?EIO=4&transport=polling&t=PftNhEf&sid=-HoTI2hiU9HKQ-OmAAAk HTTP/1.1" 200 -
+2025-11-12 14:51:26,512 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:27,857 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:27] "GET /socket.io/?EIO=4&transport=polling&t=PftNhaX HTTP/1.1" 200 -
+2025-11-12 14:51:27,894 - __main__ - INFO - Client connected: oBnpNT9g5mxGL01_AAAn
+2025-11-12 14:51:27,898 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:27] "POST /socket.io/?EIO=4&transport=polling&t=PftNhb2&sid=0JNjA7JUWR-MgNLsAAAm HTTP/1.1" 200 -
+2025-11-12 14:51:27,913 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:27] "GET /socket.io/?EIO=4&transport=polling&t=PftNhb4&sid=0JNjA7JUWR-MgNLsAAAm HTTP/1.1" 200 -
+2025-11-12 14:51:27,983 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:29,198 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:29] "GET /socket.io/?EIO=4&transport=polling&t=PftNhva HTTP/1.1" 200 -
+2025-11-12 14:51:29,214 - __main__ - INFO - Client connected: qz6-UkY7Px6rcOryAAAp
+2025-11-12 14:51:29,216 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:29] "POST /socket.io/?EIO=4&transport=polling&t=PftNhvr&sid=6j00PSutOY545ekDAAAo HTTP/1.1" 200 -
+2025-11-12 14:51:29,224 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:29] "GET /socket.io/?EIO=4&transport=polling&t=PftNhvs&sid=6j00PSutOY545ekDAAAo HTTP/1.1" 200 -
+2025-11-12 14:51:29,288 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:29,729 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:29] "GET /socket.io/?EIO=4&transport=polling&t=PftNi1q HTTP/1.1" 200 -
+2025-11-12 14:51:29,748 - __main__ - INFO - Client connected: 7RuBqUHEv3bUsBFlAAAr
+2025-11-12 14:51:29,750 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:29] "POST /socket.io/?EIO=4&transport=polling&t=PftNi28&sid=4jy1vOw-c-j7PefbAAAq HTTP/1.1" 200 -
+2025-11-12 14:51:29,766 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:29] "GET /socket.io/?EIO=4&transport=polling&t=PftNi29&sid=4jy1vOw-c-j7PefbAAAq HTTP/1.1" 200 -
+2025-11-12 14:51:29,843 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:31,383 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:31] "GET /socket.io/?EIO=4&transport=polling&t=PftNiRl HTTP/1.1" 200 -
+2025-11-12 14:51:31,400 - __main__ - INFO - Client connected: J2STCXtW9xyeTQwqAAAt
+2025-11-12 14:51:31,402 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:31] "POST /socket.io/?EIO=4&transport=polling&t=PftNiRy&sid=9waQJgJ5p5gPInpIAAAs HTTP/1.1" 200 -
+2025-11-12 14:51:31,410 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:31] "GET /socket.io/?EIO=4&transport=polling&t=PftNiRz&sid=9waQJgJ5p5gPInpIAAAs HTTP/1.1" 200 -
+2025-11-12 14:51:31,455 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 14:51:32,123 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:32] "GET /socket.io/?EIO=4&transport=polling&t=PftNidF HTTP/1.1" 200 -
+2025-11-12 14:51:32,140 - __main__ - INFO - Client connected: WYutImkhHp5hCJGLAAAv
+2025-11-12 14:51:32,143 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:32] "POST /socket.io/?EIO=4&transport=polling&t=PftNidZ&sid=aU7kNFW_fekF8nGHAAAu HTTP/1.1" 200 -
+2025-11-12 14:51:32,163 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 14:51:32] "GET /socket.io/?EIO=4&transport=polling&t=PftNida&sid=aU7kNFW_fekF8nGHAAAu HTTP/1.1" 200 -
+2025-11-12 14:51:32,216 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 15:01:05,015 - __main__ - INFO - Behavioral Authentication System initialized successfully
+2025-11-12 15:01:05,015 - __main__ - INFO - Configuration: development
+2025-11-12 15:01:05,015 - __main__ - INFO - Database: database/auth_system.db
+2025-11-12 15:01:05,015 - __main__ - INFO - Models path: models/saved
+2025-11-12 15:01:05,016 - __main__ - INFO - Starting Behavioral Authentication System...
+2025-11-12 15:01:05,016 - __main__ - INFO - Debug mode: True
+2025-11-12 15:01:05,029 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.234:5000
+2025-11-12 15:01:05,029 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-12 15:01:05,030 - werkzeug - INFO -  * Restarting with stat
+2025-11-12 15:01:08,918 - __main__ - INFO - Behavioral Authentication System initialized successfully
+2025-11-12 15:01:08,919 - __main__ - INFO - Configuration: development
+2025-11-12 15:01:08,919 - __main__ - INFO - Database: database/auth_system.db
+2025-11-12 15:01:08,919 - __main__ - INFO - Models path: models/saved
+2025-11-12 15:01:08,919 - __main__ - INFO - Starting Behavioral Authentication System...
+2025-11-12 15:01:08,920 - __main__ - INFO - Debug mode: True
+2025-11-12 15:01:08,921 - werkzeug - WARNING -  * Debugger is active!
+2025-11-12 15:01:08,925 - werkzeug - INFO -  * Debugger PIN: 711-865-944
+2025-11-12 15:07:32,313 - __main__ - INFO - Behavioral Authentication System initialized successfully
+2025-11-12 15:07:32,313 - __main__ - INFO - Configuration: development
+2025-11-12 15:07:32,314 - __main__ - INFO - Database: database/auth_system.db
+2025-11-12 15:07:32,314 - __main__ - INFO - Models path: models/saved
+2025-11-12 15:07:32,314 - __main__ - INFO - Starting Behavioral Authentication System...
+2025-11-12 15:07:32,314 - __main__ - INFO - Debug mode: True
+2025-11-12 15:07:32,332 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.137.234:5000
+2025-11-12 15:07:32,333 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-12 15:07:32,333 - werkzeug - INFO -  * Restarting with stat
+2025-11-12 15:07:37,119 - __main__ - INFO - Behavioral Authentication System initialized successfully
+2025-11-12 15:07:37,120 - __main__ - INFO - Configuration: development
+2025-11-12 15:07:37,120 - __main__ - INFO - Database: database/auth_system.db
+2025-11-12 15:07:37,120 - __main__ - INFO - Models path: models/saved
+2025-11-12 15:07:37,120 - __main__ - INFO - Starting Behavioral Authentication System...
+2025-11-12 15:07:37,120 - __main__ - INFO - Debug mode: True
+2025-11-12 15:07:37,121 - werkzeug - WARNING -  * Debugger is active!
+2025-11-12 15:07:37,125 - werkzeug - INFO -  * Debugger PIN: 711-865-944
+2025-11-12 15:07:48,194 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-12 15:07:48,244 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:48] "GET /login HTTP/1.1" 200 -
+2025-11-12 15:07:48,486 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-12 15:07:48,488 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:48] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-11-12 15:07:48,836 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:48] "GET /api/session/status?session_id=5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552 HTTP/1.1" 200 -
+2025-11-12 15:07:49,676 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:49] "GET /challenge HTTP/1.1" 200 -
+2025-11-12 15:07:49,749 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-12 15:07:49,752 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:49] "[36mGET /static/js/challenge.js HTTP/1.1[0m" 304 -
+2025-11-12 15:07:49,884 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:49] "GET /socket.io/?EIO=4&transport=polling&t=PftRRJ- HTTP/1.1" 200 -
+2025-11-12 15:07:49,885 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:49] "GET /socket.io/?EIO=4&transport=polling&t=PftRRKZ HTTP/1.1" 200 -
+2025-11-12 15:07:49,983 - __main__ - INFO - Client connected: i7RF4lTHN1d77ppRAAAC
+2025-11-12 15:07:49,984 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:49] "POST /socket.io/?EIO=4&transport=polling&t=PftRRLx&sid=Bs6CSQ64Vn5jN8nXAAAA HTTP/1.1" 200 -
+2025-11-12 15:07:49,990 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:49] "GET /socket.io/?EIO=4&transport=polling&t=PftRRLy&sid=Bs6CSQ64Vn5jN8nXAAAA HTTP/1.1" 200 -
+2025-11-12 15:07:49,994 - __main__ - INFO - Client connected: demxJtySg8VXteRwAAAD
+2025-11-12 15:07:49,996 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:49] "POST /socket.io/?EIO=4&transport=polling&t=PftRRLz&sid=CWOBPioE9dIDq5E2AAAB HTTP/1.1" 200 -
+2025-11-12 15:07:49,998 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:49] "GET /socket.io/?EIO=4&transport=polling&t=PftRRL-&sid=CWOBPioE9dIDq5E2AAAB HTTP/1.1" 200 -
+2025-11-12 15:07:50,013 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:50] "GET /socket.io/?EIO=4&transport=polling&t=PftRRMv&sid=Bs6CSQ64Vn5jN8nXAAAA HTTP/1.1" 200 -
+2025-11-12 15:07:50,027 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:50] "POST /socket.io/?EIO=4&transport=polling&t=PftRRN0.0&sid=CWOBPioE9dIDq5E2AAAB HTTP/1.1" 200 -
+2025-11-12 15:07:50,028 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:50] "GET /socket.io/?EIO=4&transport=polling&t=PftRRN0&sid=CWOBPioE9dIDq5E2AAAB HTTP/1.1" 200 -
+2025-11-12 15:07:50,035 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 15:07:50,062 - __main__ - INFO - Socket joined session: 5b12a7c407ecf2c33105833636240476d15d6ac4dcde1cb2aa59905a1faf4552
+2025-11-12 15:07:53,743 - __main__ - INFO - Initialized ML models for user 1
+2025-11-12 15:07:53,744 - utils.feature_extractor - INFO - BehavioralFeatureExtractor initialized with 38 features
+2025-11-12 15:07:53,744 - __main__ - INFO - Initialized feature extractor for user 1
+2025-11-12 15:07:53,744 - __main__ - INFO - Initialized drift detector for user 1
+2025-11-12 15:07:54,217 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:54] "[31m[1mPOST /api/logout HTTP/1.1[0m" 400 -
+2025-11-12 15:07:54,273 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:54] "GET /login HTTP/1.1" 200 -
+2025-11-12 15:07:54,352 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-12 15:07:54,359 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:54] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-11-12 15:07:54,625 - __main__ - INFO - Client disconnected: i7RF4lTHN1d77ppRAAAC
+2025-11-12 15:07:54,625 - __main__ - INFO - Client disconnected: demxJtySg8VXteRwAAAD
+2025-11-12 15:07:54,626 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:54] "GET /socket.io/?EIO=4&transport=websocket&sid=Bs6CSQ64Vn5jN8nXAAAA HTTP/1.1" 200 -
+2025-11-12 15:07:54,626 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:07:54] "GET /socket.io/?EIO=4&transport=websocket&sid=CWOBPioE9dIDq5E2AAAB HTTP/1.1" 200 -
+2025-11-12 15:09:02,112 - __main__ - INFO - New user registered: Aryan (ID: 2)
+2025-11-12 15:09:02,115 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:09:02] "POST /api/register HTTP/1.1" 200 -
+2025-11-12 15:09:45,723 - __main__ - INFO - Initialized ML models for user 2
+2025-11-12 15:09:45,726 - utils.feature_extractor - INFO - BehavioralFeatureExtractor initialized with 38 features
+2025-11-12 15:09:45,727 - __main__ - INFO - Initialized feature extractor for user 2
+2025-11-12 15:09:45,729 - __main__ - INFO - Initialized drift detector for user 2
+2025-11-12 15:09:45,750 - __main__ - INFO - User logged in: Aryan (Session: 775482e9778953a012ec16ff8f062f0dfede99d0d1763408bac2ef3a544c08d6)
+2025-11-12 15:09:45,753 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:09:45] "POST /api/login HTTP/1.1" 200 -
+2025-11-12 15:09:47,824 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:09:47] "GET /calibration HTTP/1.1" 200 -
+2025-11-12 15:09:47,908 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:09:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-12 15:09:47,913 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:09:47] "[36mGET /static/js/calib.js HTTP/1.1[0m" 304 -
+2025-11-12 15:09:48,443 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:09:48] "GET /socket.io/?EIO=4&transport=polling&t=PftRuHM HTTP/1.1" 200 -
+2025-11-12 15:09:48,462 - __main__ - INFO - Client connected: 0dnxNPmkydllrVNlAAAF
+2025-11-12 15:09:48,466 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:09:48] "POST /socket.io/?EIO=4&transport=polling&t=PftRuHd&sid=y-gQejPF_Oihf9pPAAAE HTTP/1.1" 200 -
+2025-11-12 15:09:48,477 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:09:48] "GET /socket.io/?EIO=4&transport=polling&t=PftRuHe&sid=y-gQejPF_Oihf9pPAAAE HTTP/1.1" 200 -
+2025-11-12 15:09:48,688 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:09:48] "POST /socket.io/?EIO=4&transport=polling&t=PftRuL7&sid=y-gQejPF_Oihf9pPAAAE HTTP/1.1" 200 -
+2025-11-12 15:09:48,707 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:09:48] "GET /socket.io/?EIO=4&transport=polling&t=PftRuL6&sid=y-gQejPF_Oihf9pPAAAE HTTP/1.1" 200 -
+2025-11-12 15:09:48,723 - __main__ - INFO - Socket joined session: 775482e9778953a012ec16ff8f062f0dfede99d0d1763408bac2ef3a544c08d6
+2025-11-12 15:10:02,363 - __main__ - INFO - User logged out: Aryan
+2025-11-12 15:10:02,365 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:10:02] "POST /api/logout HTTP/1.1" 200 -
+2025-11-12 15:10:04,047 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:10:04] "GET /login HTTP/1.1" 200 -
+2025-11-12 15:10:04,154 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:10:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-12 15:10:04,159 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:10:04] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-11-12 15:10:04,369 - __main__ - INFO - Client disconnected: 0dnxNPmkydllrVNlAAAF
+2025-11-12 15:10:04,370 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:10:04] "GET /socket.io/?EIO=4&transport=websocket&sid=y-gQejPF_Oihf9pPAAAE HTTP/1.1" 200 -
+2025-11-12 15:29:31,934 - __main__ - INFO - User logged in: Priyanshu (Session: b003c31bb93c66cffcd807ef84c481dc2c34b809fa75ab9621f7f01f99a427ff)
+2025-11-12 15:29:31,935 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:31] "POST /api/login HTTP/1.1" 200 -
+2025-11-12 15:29:33,995 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:33] "GET /challenge HTTP/1.1" 200 -
+2025-11-12 15:29:34,095 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-12 15:29:34,102 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:34] "[36mGET /static/js/challenge.js HTTP/1.1[0m" 304 -
+2025-11-12 15:29:34,720 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:34] "GET /socket.io/?EIO=4&transport=polling&t=PftWPuy HTTP/1.1" 200 -
+2025-11-12 15:29:34,758 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:34] "GET /socket.io/?EIO=4&transport=polling&t=PftWPvR HTTP/1.1" 200 -
+2025-11-12 15:29:34,769 - __main__ - INFO - Client connected: zaYWhjZqKjPXcUs2AAAI
+2025-11-12 15:29:34,771 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:34] "POST /socket.io/?EIO=4&transport=polling&t=PftWPvh&sid=ktqHrFS-3H9FrVR1AAAG HTTP/1.1" 200 -
+2025-11-12 15:29:34,781 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:34] "GET /socket.io/?EIO=4&transport=polling&t=PftWPvj&sid=ktqHrFS-3H9FrVR1AAAG HTTP/1.1" 200 -
+2025-11-12 15:29:35,806 - __main__ - INFO - Client connected: AhqTHcOaHsgAOtx_AAAJ
+2025-11-12 15:29:35,807 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:35] "POST /socket.io/?EIO=4&transport=polling&t=PftWQ9v&sid=2c3neAoEKDc_2hZbAAAH HTTP/1.1" 200 -
+2025-11-12 15:29:35,812 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:35] "GET /socket.io/?EIO=4&transport=polling&t=PftWQ9x&sid=2c3neAoEKDc_2hZbAAAH HTTP/1.1" 200 -
+2025-11-12 15:29:35,821 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:35] "GET /socket.io/?EIO=4&transport=polling&t=PftWQ9-&sid=ktqHrFS-3H9FrVR1AAAG HTTP/1.1" 200 -
+2025-11-12 15:29:35,878 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:35] "POST /socket.io/?EIO=4&transport=polling&t=PftWQAp&sid=2c3neAoEKDc_2hZbAAAH HTTP/1.1" 200 -
+2025-11-12 15:29:35,882 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:35] "GET /socket.io/?EIO=4&transport=polling&t=PftWQAn&sid=2c3neAoEKDc_2hZbAAAH HTTP/1.1" 200 -
+2025-11-12 15:29:35,887 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 15:29:35] "GET /socket.io/?EIO=4&transport=polling&t=PftWQAr&sid=ktqHrFS-3H9FrVR1AAAG HTTP/1.1" 200 -
+2025-11-12 15:29:35,925 - __main__ - INFO - Socket joined session: b003c31bb93c66cffcd807ef84c481dc2c34b809fa75ab9621f7f01f99a427ff
+2025-11-12 15:29:36,046 - __main__ - INFO - Socket joined session: b003c31bb93c66cffcd807ef84c481dc2c34b809fa75ab9621f7f01f99a427ff
